@@ -151,7 +151,7 @@ if [ -d "/www/server/phpmyadmin/pma" ];then
 	if [ "${EN_CHECK}" ];then
 		curl http://download.bt.cn/install/update6_en.sh|bash
 	else
-		curl http://shell.dalaola.com/baota/update6.sh|bash
+		curl https://github.com/aoaostar/shell/raw/master/baota/update6.sh|bash
 	fi
 	echo > /www/server/panel/data/restart.pl
 fi

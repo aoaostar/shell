@@ -311,7 +311,7 @@ Install_Bt(){
 	fi
 
 	# wget -O panel.zip ${download_Url}/install/src/panel6.zip -T 10
-	wget -O panel.zip http://shell.dalaola.com/baota/panel6.zip -T 10
+	wget -O panel.zip https://github.com/aoaostar/shell/raw/master/baota/panel.zip -T 10
 	wget -O /etc/init.d/bt ${download_Url}/install/src/bt6.init -T 10
 	wget -O /www/server/panel/install/public.sh ${download_Url}/install/public.sh -T 10
 
